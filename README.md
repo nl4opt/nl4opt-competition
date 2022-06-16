@@ -1,2 +1,2 @@
-# nl4opt-competition
-Natural Language for Optimization Modelling
+# nl4opt-dataset
+Annotated dataset for NL4Opt Competition
