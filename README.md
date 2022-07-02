@@ -6,7 +6,7 @@ Baselines for each subtask are located in the following respositories
 - [Subtask 2 - generation](https://github.com/nl4opt/nl4opt-subtask2-baseline)
 
 # Dataset
-Coming soon.
+Datasets for the respective tasks are contained in this repo. 
 
 # Discussion
 We use the Github discussion fuction linked [here](https://github.com/nl4opt/nl4opt-competition/discussions).
