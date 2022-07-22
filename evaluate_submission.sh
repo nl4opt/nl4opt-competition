@@ -21,7 +21,7 @@ if [ -d subtask1 ]; then
         ./evaluate.sh
         
         # File `results.out` should have a single line with the micro F1 score (e.g. "0.839")
-        echo results.out
+        cat results.out
       fi
 
       cd ../
@@ -54,7 +54,7 @@ if [ -d subtask2 ]; then
         ./evaluate.sh
         
         # File `results.out` should have a single line with the accuracy (e.g. "0.60")
-        echo results.out
+        cat results.out
       fi
 
       cd ../
