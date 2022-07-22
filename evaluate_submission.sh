@@ -17,8 +17,11 @@ if [ -d subtask1 ]; then
         cp ~/test.txt ./
 
         # Your script should set up necessary environment, evaluate the model on `./test.txt`,
-        # and print the micro-averaged F1 score to stdout (e.g. 0.839)
-        ./evaluate.sh > task1_results.txt
+        # and output the micro-averaged F1 score to a text file named `results.out`
+        ./evaluate.sh
+        
+        # File `results.out` should have a single line with the micro F1 score (e.g. "0.839")
+        echo results.out
       fi
 
       cd ../
@@ -47,8 +50,11 @@ if [ -d subtask2 ]; then
         cp ~/test.jsonl ./
 
         # Your script should set up necessary environment, evaluate the model on `./test.jsonl`,
-        # and print the accuracy to stdout (e.g. 0.60)
-        ./evaluate.sh > task2_results.txt
+        # and output the accuracy to a text file named `results.out`
+        ./evaluate.sh
+        
+        # File `results.out` should have a single line with the accuracy (e.g. "0.60")
+        echo results.out
       fi
 
       cd ../
