@@ -23,7 +23,6 @@ index	_	_	B-VAR
 ETF	_	_	I-VAR
 .	_	_	O
 GICs	_	_	B-VAR
- 	_	_	O
 yields	_	_	O
 a	_	_	O
 2	_	_	B-PARAM
@@ -61,7 +60,6 @@ in	_	_	O
 index	_	_	B-VAR
 ETF	_	_	I-VAR
 .	_	_	O
- 	_	_	O
 Nonetheless	_	_	O
 ,	_	_	O
 he	_	_	O
@@ -84,7 +82,6 @@ invested	_	_	O
 in	_	_	O
 GICs	_	_	B-VAR
 .	_	_	O
- 	_	_	O
 Help	_	_	O
 Bold	_	_	O
 Tycoon	_	_	O
@@ -1201,7 +1198,6 @@ the	_	_	O
 nail	_	_	O
 paints	_	_	O
 .	_	_	O
- 	_	_	O
 How	_	_	O
 many	_	_	O
 of	_	_	O
@@ -2305,7 +2301,6 @@ of	_	_	O
 machine	_	_	O
 time	_	_	O
 .	_	_	O
- 	_	_	O
 In	_	_	O
 a	_	_	O
 week	_	_	O
@@ -2805,7 +2800,6 @@ X	_	_	I-VAR
 and	_	_	O
 method	_	_	B-VAR
 Y.	_	_	I-VAR
- 	_	_	O
 Method	_	_	B-VAR
 X	_	_	I-VAR
 requires	_	_	O
@@ -3596,7 +3590,6 @@ water	_	_	O
 every	_	_	O
 week	_	_	O
 .	_	_	O
- 	_	_	O
 The	_	_	O
 tea	_	_	O
 shop	_	_	O
@@ -3869,7 +3862,6 @@ of	_	_	O
 ice	_	_	O
 cream	_	_	O
 .	_	_	O
- 	_	_	O
 Due	_	_	O
 to	_	_	O
 the	_	_	O
@@ -8373,7 +8365,6 @@ units	_	_	O
 of	_	_	O
 heat	_	_	O
 .	_	_	O
- 	_	_	O
 The	_	_	O
 lab	_	_	O
 has	_	_	O
@@ -10979,7 +10970,6 @@ the	_	_	O
 landing	_	_	O
 space	_	_	O
 .	_	_	O
- 	_	_	O
 If	_	_	O
 there	_	_	O
 needs	_	_	O

@@ -301,7 +301,6 @@ maximize	_	_	B-OBJ_DIR
 the	_	_	O
 reach	_	_	B-OBJ_NAME
 of	_	_	O
- 	_	_	O
 the	_	_	O
 campaign	_	_	O
 ?	_	_	O
@@ -1312,7 +1311,6 @@ tables	_	_	O
 should	_	_	O
 be	_	_	O
 manufactured	_	_	O
- 	_	_	O
 to	_	_	O
 maximize	_	_	B-OBJ_DIR
 the	_	_	O
@@ -2444,7 +2442,6 @@ is	_	_	O
 $	_	_	O
 250	_	_	B-PARAM
 .	_	_	O
- 	_	_	O
 The	_	_	O
 total	_	_	O
 number	_	_	O
@@ -2852,7 +2849,6 @@ the	_	_	O
 company	_	_	O
 has	_	_	B-CONST_DIR
 200	_	_	B-LIMIT
- 	_	_	O
 units	_	_	O
 of	_	_	O
 compound	_	_	O
@@ -4382,7 +4378,6 @@ $	_	_	O
 ,	_	_	O
 how	_	_	O
 many	_	_	O
- 	_	_	O
 acres	_	_	O
 of	_	_	O
 each	_	_	O
@@ -4935,7 +4930,6 @@ cookies	_	_	I-VAR
 is	_	_	O
 made	_	_	O
 of	_	_	O
- 	_	_	O
 314	_	_	B-PARAM
 g	_	_	O
 of	_	_	O
@@ -5721,7 +5715,6 @@ $	_	_	O
 profit	_	_	B-OBJ_NAME
 each	_	_	O
 .	_	_	O
- 	_	_	O
 However	_	_	O
 ,	_	_	O
 due	_	_	O
@@ -5901,7 +5894,6 @@ to	_	_	O
 be	_	_	O
 mixed	_	_	O
 .	_	_	O
- 	_	_	O
 In	_	_	O
 order	_	_	O
 to	_	_	O
@@ -7555,7 +7547,6 @@ of	_	_	O
 machine	_	_	O
 time	_	_	O
 .	_	_	O
- 	_	_	O
 In	_	_	O
 a	_	_	O
 week	_	_	O
@@ -9686,7 +9677,6 @@ each	_	_	O
 snowflake	_	_	B-VAR
 layout	_	_	I-VAR
 .	_	_	O
- 	_	_	O
 How	_	_	O
 many	_	_	O
 layouts	_	_	O
@@ -9971,7 +9961,6 @@ jelly	_	_	B-VAR
 -	_	_	I-VAR
 filled	_	_	I-VAR
 .	_	_	O
- 	_	_	O
 The	_	_	O
 store	_	_	O
 pays	_	_	O
@@ -11755,7 +11744,6 @@ units	_	_	O
 of	_	_	O
 water	_	_	O
 .	_	_	O
- 	_	_	O
 The	_	_	O
 man	_	_	O
 needs	_	_	O
@@ -12546,7 +12534,6 @@ hours	_	_	O
 a	_	_	O
 day	_	_	O
 .	_	_	O
- 	_	_	O
 Both	_	_	O
 of	_	_	O
 these	_	_	O
@@ -13739,7 +13726,6 @@ kilogram	_	_	O
 Each	_	_	O
 kilogram	_	_	O
 of	_	_	O
- 	_	_	O
 enriched	_	_	B-VAR
 hay	_	_	I-VAR
 contains	_	_	O
@@ -13787,7 +13773,6 @@ requires	_	_	O
 a	_	_	O
 minimum	_	_	B-CONST_DIR
 of	_	_	O
- 	_	_	O
 1.5	_	_	B-LIMIT
 kilograms	_	_	O
 of	_	_	O
@@ -16363,7 +16348,6 @@ the	_	_	O
 embroidery	_	_	O
 machine	_	_	O
 .	_	_	O
- 	_	_	O
 If	_	_	O
 the	_	_	O
 profit	_	_	B-OBJ_NAME
@@ -17806,7 +17790,6 @@ units	_	_	O
 of	_	_	O
 sugar	_	_	O
 .	_	_	O
- 	_	_	O
 The	_	_	O
 special	_	_	O
 mix	_	_	O
@@ -19464,7 +19447,6 @@ minutes	_	_	O
 for	_	_	O
 baking	_	_	O
 .	_	_	O
- 	_	_	O
 Per	_	_	O
 week	_	_	O
 ,	_	_	O
@@ -20103,7 +20085,6 @@ shelves	_	_	B-VAR
 Each	_	_	O
 chair	_	_	B-VAR
 requires	_	_	O
- 	_	_	O
 30	_	_	B-PARAM
 minutes	_	_	O
 of	_	_	O
@@ -23053,7 +23034,6 @@ pecans	_	_	O
 and	_	_	O
 pistachios	_	_	O
 .	_	_	O
- 	_	_	O
 They	_	_	O
 have	_	_	B-CONST_DIR
 1000	_	_	B-LIMIT
@@ -24906,7 +24886,6 @@ store	_	_	O
 $	_	_	O
 50	_	_	B-PARAM
 .	_	_	O
- 	_	_	O
 The	_	_	O
 profit	_	_	B-OBJ_NAME
 per	_	_	O
@@ -26508,7 +26487,6 @@ to	_	_	O
 0	_	_	O
 )	_	_	O
 .	_	_	O
- 	_	_	O
 The	_	_	O
 demand	_	_	O
 for	_	_	O
@@ -26799,9 +26777,7 @@ The	_	_	O
 company	_	_	O
 has	_	_	O
 1500	_	_	B-LIMIT
- 	_	_	O
 minutes	_	_	O
- 	_	_	O
 available	_	_	B-CONST_DIR
 on	_	_	O
 the	_	_	O
@@ -28095,7 +28071,6 @@ units	_	_	O
 of	_	_	O
 flavoring	_	_	O
 .	_	_	O
- 	_	_	O
 The	_	_	O
 mixture	_	_	O
 can	_	_	O
@@ -28725,7 +28700,6 @@ $	_	_	O
 0.95	_	_	B-PARAM
 profit	_	_	B-OBJ_NAME
 .	_	_	O
- 	_	_	O
 Each	_	_	O
 dollar	_	_	O
 invested	_	_	O
@@ -29032,7 +29006,6 @@ The	_	_	O
 cost	_	_	O
 for	_	_	O
 a	_	_	O
- 	_	_	O
 commercial	_	_	O
 as	_	_	O
 well	_	_	O
@@ -29409,7 +29382,6 @@ in	_	_	O
 security	_	_	B-VAR
 swaps	_	_	I-VAR
 .	_	_	O
- 	_	_	O
 The	_	_	O
 hedge	_	_	O
 fund	_	_	O
@@ -33805,7 +33777,6 @@ a	_	_	O
 month	_	_	O
 commitment	_	_	O
 .	_	_	O
- 	_	_	O
 They	_	_	O
 have	_	_	O
 decided	_	_	O
@@ -42442,7 +42413,6 @@ truck	_	_	B-VAR
 costs	_	_	O
 the	_	_	O
 dealership	_	_	O
- 	_	_	O
 $	_	_	O
 40000	_	_	B-PARAM
 .	_	_	O
@@ -43506,7 +43476,6 @@ and	_	_	O
 45	_	_	B-PARAM
 peanuts	_	_	O
 .	_	_	O
- 	_	_	O
 The	_	_	O
 special	_	_	O
 mix	_	_	O
@@ -45740,7 +45709,6 @@ special	_	_	O
 combo	_	_	O
 deals	_	_	O
 .	_	_	O
- 	_	_	O
 They	_	_	O
 have	_	_	B-CONST_DIR
 1200	_	_	B-LIMIT
@@ -52078,7 +52046,6 @@ cars	_	_	O
 .	_	_	O
 The	_	_	O
 SUV	_	_	B-VAR
- 	_	_	I-VAR
 car	_	_	I-VAR
 factory	_	_	O
 can	_	_	O
@@ -55679,7 +55646,6 @@ a	_	_	O
 month	_	_	O
 commitment	_	_	O
 .	_	_	O
- 	_	_	O
 They	_	_	O
 have	_	_	O
 decided	_	_	O
@@ -63639,7 +63605,6 @@ of	_	_	O
 sugar	_	_	O
 and	_	_	O
 250	_	_	B-LIMIT
- 	_	_	O
 grams	_	_	O
 of	_	_	O
 acid	_	_	O
@@ -66782,7 +66747,6 @@ each	_	_	O
 mesh	_	_	B-VAR
 layout	_	_	I-VAR
 .	_	_	O
- 	_	_	O
 How	_	_	O
 many	_	_	O
 layouts	_	_	O
@@ -67727,7 +67691,6 @@ packing	_	_	O
 the	_	_	O
 lipsticks	_	_	O
 .	_	_	O
- 	_	_	O
 How	_	_	O
 many	_	_	O
 of	_	_	O
@@ -74514,7 +74477,6 @@ for	_	_	O
 7	_	_	B-LIMIT
 hours	_	_	O
 .	_	_	O
- 	_	_	O
 The	_	_	O
 mixture	_	_	O
 can	_	_	O
