@@ -37,22 +37,30 @@ input="RegistrationFolders.csv"
 # Read CSV file line-by-line
 sed 1d $input | while IFS=, read -r email folder_id
 do
-  # Copy Google Drive folder to local
+  # Copy GDrive directory to local
   DIRNAME=$(gdrive info $folder_id | grep Name | cut -d ":" -f2 )
-  cd $DIRNAME
   gdrive download -f -r $folder_id
+  cd $DIRNAME
+  echo $DIRNAME
 
-  # Check if there is a folder for subtask1
+  ######## Subtask-1 ########
+
+  # Enter subtask folder if exists
   if [ -d subtask1 ]; then
     cd subtask1
+    echo subtask1
 
-    # Check if number of sub-folders (submissions) is less than 3
+    TASK_FOLDER_ID=`gdrive list --query "name contains 'subtask1' and '$folder_id' in parents" -m 1 | sed -n '2 p' | cut -d " " -f1`
+
+    # Check number of sub-folders (submissions)
     N_DIR=`ls -d */ | wc -w`
     echo $N_DIR
     if [ $N_DIR -le 3 ]; then
 
       for d in */ ; do
         cd $d
+
+        SUBMISSION_FOLDER_ID=`gdrive list --query "name contains '$d' and '$TASK_FOLDER_ID' in parents" -m 1 | sed -n '2 p' | cut -d " " -f1`
 
         # Check if `evaluate.sh` exists
         if [ -f "evaluate.sh" ]; then
@@ -61,12 +69,10 @@ do
           # Copy test data into the submission sub-folder
           cp ~/test.txt ./
 
-          # Your script should set up environment, evaluate the model on `./test.txt`,
+          # Your script should set up necessary environment, evaluate the model on `./test.txt`,
           # and output the micro-averaged F1 score to a text file named `results.out`
           ./evaluate.sh &> evaluation.out
-          
-          # Upload shell output to your submission folder
-          gdrive upload -p $folder_id evaluation.out
+          gdrive upload -p $SUBMISSION_FOLDER_ID evaluation.out
           
           # File `results.out` should have a single line with the micro F1 score (e.g. "0.839")
           cat results.out
@@ -81,18 +87,24 @@ do
 
   fi
 
+  ######## Subtask-2 ########
 
-  # Check if there is a folder for subtask2
+  # Enter subtask folder if exists
   if [ -d subtask2 ]; then
     cd subtask2
-  
-    # Check if number of sub-folders (submissions) is less than 3
+    echo subtask2
+
+    TASK_FOLDER_ID=`gdrive list --query "name contains 'subtask2' and '$folder_id' in parents" -m 1 | sed -n '2 p' | cut -d " " -f1`
+
+    # Check number of sub-folders (submissions)
     N_DIR=`ls -d */ | wc -w`
     echo $N_DIR
     if [ $N_DIR -le 3 ]; then
 
       for d in */ ; do
         cd $d
+
+        SUBMISSION_FOLDER_ID=`gdrive list --query "name contains '$d' and '$TASK_FOLDER_ID' in parents" -m 1 | sed -n '2 p' | cut -d " " -f1`
 
         # Check if `evaluate.sh` exists
         if [ -f "evaluate.sh" ]; then
@@ -101,12 +113,10 @@ do
           # Copy test data into the submission sub-folder
           cp ~/test.jsonl ./
 
-          # Your script should set up environment, evaluate the model on `./test.jsonl`,
+          # Your script should set up necessary environment, evaluate the model on `./test.jsonl`,
           # and output the accuracy to a text file named `results.out`
           ./evaluate.sh &> evaluation.out
-          
-          # Upload shell output to your submission folder
-          gdrive upload -p $folder_id evaluation.out
+          gdrive upload -p $SUBMISSION_FOLDER_ID evaluation.out
           
           # File `results.out` should have a single line with the accuracy (e.g. "0.60")
           cat results.out
@@ -121,7 +131,20 @@ do
 
   fi
 
+  ######## Clean-up ########
 
-  # Remove submission directory after evaluation
+  # Remove submission directory
   rm -rf $DIRNAME
+
+  # Recurively deactivate and remove all conda environments 
+  for i in $(seq ${CONDA_SHLVL}); do
+    conda deactivate
+  done
+  rm -rf ~/miniconda3/envs/*
+
+  # Stop and remove all docker containers & images
+  docker stop $(docker ps -aq)
+  docker rm $(docker ps -aq)
+  docker rmi $(docker images -q)
+
 done
