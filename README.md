@@ -17,9 +17,6 @@ Baselines for each subtask are located in the following respositories
 
 Datasets for the respective tasks are contained in this repo. 
 
-# Discussion
-
-We use the Github discussion function linked [here](https://github.com/nl4opt/nl4opt-competition/discussions).
 
 # Citation
 Please cite our [preprint](http://arxiv.org/abs/2209.15565) if our dataset or competition aids you in your research.
