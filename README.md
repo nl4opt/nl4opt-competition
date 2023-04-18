@@ -19,7 +19,7 @@ Datasets for the respective tasks are contained in this repo.
 
 
 # Citation
-Please cite our [Papers](http://arxiv.org/abs/2209.15565) below if our dataset or competition aids you in your research.
+Please cite our papers below if our dataset or competition aids you in your research.
 
 ```
 @inproceedings{ramamonjison-etal-2022-augmenting,
