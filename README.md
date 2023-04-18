@@ -15,21 +15,32 @@ Baselines for each subtask are located in the following respositories
 
 # Dataset
 
-Datasets for the respective tasks are contained in this repo. 
+Datasets for the respective tasks are contained in this repo.
 
 
 # Citation
-Please cite our [preprint](http://arxiv.org/abs/2209.15565) if our dataset or competition aids you in your research.
+Please cite our papers below if our dataset or competition aids you in your research.
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2209.15565,
-  doi = {10.48550/ARXIV.2209.15565},
-  url = {https://arxiv.org/abs/2209.15565},
-  author = {Ramamonjison, Rindranirina and Li, Haley and Yu, Timothy T. and He, Shiqi and Rengan, Vishnu and Banitalebi-Dehkordi, Amin and Zhou, Zirui and Zhang, Yong},
-  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Augmenting Operations Research with Auto-Formulation of Optimization Models from Problem Descriptions},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@inproceedings{ramamonjison-etal-2022-augmenting,
+  title = "Augmenting Operations Research with Auto-Formulation of Optimization Models From Problem Descriptions",
+  author = "Ramamonjison et al,.",
+  booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+  month = dec,
+  year = "2022",
+  address = "Abu Dhabi, UAE",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2022.emnlp-industry.4",
+  pages = "29--62",
+}
+
+@misc{ramamonjison2023nl4opt,
+  title={NL4Opt Competition: Formulating Optimization Problems Based on Their Natural Language Descriptions},
+  author={Ramamonjison et al.},
+  year={2023},
+  eprint={2303.08233},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2303.08233}
 }
 ```
