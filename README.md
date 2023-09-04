@@ -24,7 +24,7 @@ Please cite our papers below if our dataset or competition aids you in your rese
 ```
 @inproceedings{ramamonjison-etal-2022-augmenting,
   title = "Augmenting Operations Research with Auto-Formulation of Optimization Models From Problem Descriptions",
-  author = "Ramamonjison et al,.",
+  author = "Ramamonjison and others",
   booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing: Industry Track",
   month = dec,
   year = "2022",
@@ -36,7 +36,7 @@ Please cite our papers below if our dataset or competition aids you in your rese
 
 @misc{ramamonjison2023nl4opt,
   title={NL4Opt Competition: Formulating Optimization Problems Based on Their Natural Language Descriptions},
-  author={Ramamonjison et al.},
+  author={Ramamonjison and others},
   year={2023},
   eprint={2303.08233},
   archivePrefix={arXiv},
