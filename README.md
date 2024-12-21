@@ -3,7 +3,10 @@
 This repo contains the annotated dataset for NL4Opt Competition
 
 # News
-
+- New paper is published (Jun, 2024): Optimization modeling and verification from problem specifications using a multi-agent multi-stage LLM framework. [Link](https://www.tandfonline.com/doi/full/10.1080/03155986.2024.2381306)
+- New paper is published (May, 2024): Towards Human-aligned Evaluation for Linear Programming Word Problems. [Link](https://aclanthology.org/2024.lrec-main.1438/)
+- New paper is published (July, 2023): LaTeX2Solver: a Hierarchical Semantic Parsing of LaTeX Document into Code for an Assistive Optimization Modeling Application. [Link](https://aclanthology.org/2023.acl-demo.45/)
+- Competition report has been published (December, 2022) : NL4Opt Competition: Formulating Optimization Problems Based on Their Natural Language Descriptions. [Link](https://proceedings.mlr.press/v220/ramamonjison23a.html)
 - (July 22) Following the discussions with Karthik ([#8](../../discussions/8)) and Sam ([#15](../../discussions/15)), we have decided to remove all lines containing in-sentence "white space tokens" from the NER dataset. The test set has also been revised to the same format, where it will be used evaluate your submissions for Subtask-1.
 
 # Subtasks
