@@ -1,6 +1,6 @@
-# nl4opt-dataset
+# NL4OPT- Code and Dataset
 
-This repo contains the annotated dataset for NL4Opt Competition
+This repo contains updates on NL4Opt Competition and Its dataset. 
 
 # News
 - New paper is published (Jun, 2024): Optimization modeling and verification from problem specifications using a multi-agent multi-stage LLM framework. [Link](https://www.tandfonline.com/doi/full/10.1080/03155986.2024.2381306)
