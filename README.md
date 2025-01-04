@@ -1,6 +1,6 @@
 # NL4OPT- Code and Dataset
 
-This repo contains updates on NL4Opt Competition and Its dataset. 
+This repo contains updates on NL4Opt Competition at Neurips 2022 and Its dataset. 
 
 # News
 - (Dec, 2024) Our new benchmark dataset, now published for public access. The paper accepted at AAAI 2025: Evaluating LLM Reasoning in the Operations Research Domain with ORQA. [Link](https://arxiv.org/abs/2412.17874)
