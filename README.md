@@ -3,7 +3,7 @@
 This repo contains updates on NL4Opt Competition at Neurips 2022 and Its dataset. 
 
 # News
-- (Dec, 2024) Our new benchmark dataset, now published for public access. The paper accepted at AAAI 2025: Evaluating LLM Reasoning in the Operations Research Domain with ORQA. [Link](https://arxiv.org/abs/2412.17874)
+- (Dec, 2024) Our new [benchmark dataset ORQA](https://github.com/nl4opt/ORQA) is now published for public access. The paper was accepted at AAAI 2025: Evaluating LLM Reasoning in the Operations Research Domain with ORQA. [Link](https://arxiv.org/abs/2412.17874)
 - (Jun, 2024) New paper is published at INFOR: Optimization modeling and verification from problem specifications using a multi-agent multi-stage LLM framework. [Link](https://www.tandfonline.com/doi/full/10.1080/03155986.2024.2381306)
 - (May, 2024) New paper is published at COLLING: Towards Human-aligned Evaluation for Linear Programming Word Problems. [Link](https://aclanthology.org/2024.lrec-main.1438/)
 - (July, 2023) New paper is published at ACL: LaTeX2Solver: a Hierarchical Semantic Parsing of LaTeX Document into Code for an Assistive Optimization Modeling Application. [Link](https://aclanthology.org/2023.acl-demo.45/)
